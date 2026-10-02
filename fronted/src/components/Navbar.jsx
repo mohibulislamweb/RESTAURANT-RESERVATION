@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <nav>
         <div className="logo">
-  𝓣𝓪𝓼𝓽<span style={{ color: "#ff4757" }}>𝓑𝓲𝓽𝓮𝓼</span>
+  𝓣𝓪𝓼𝓽𝔂<span style={{ color: "#ff4757" }}>𝓑𝓲𝓽𝓮𝓼</span>
 </div>
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
