@@ -7,7 +7,9 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="logo">ZEESH</div>
+        <div className="logo">
+  𝓣𝓪𝓼𝓽<span style={{ color: "#ff4757" }}>𝓑𝓲𝓽𝓮𝓼</span>
+</div>
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
             {data[0].navbarLinks.map((element) => (
