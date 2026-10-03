@@ -5,8 +5,8 @@ const Footer = () => {
   const phoneNumber = "8801853389495"; 
   const formattedNumber = "+880 1853-389495";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    `Hello Engr. Mohibul Islam I reached out from TastyBites website (${formattedNumber}).`
-  )}`;
+  "Hello Engineer Mohibul Islam, I would like to make a reservation at the restaurant. Could you please let me know the procedure or provide some details about it?"
+)}`;
 
   return (
     <footer>
